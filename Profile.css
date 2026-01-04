@@ -10,10 +10,13 @@ body {
 }
 
 .main{
-    background-color: #EEEEEE;
+    background-color: #ffffff;
+    /*background-image:url(DTM_image.png);*/
+    background-size:cover;
     padding: 10px 40px;
     height: 800px;
     font-size: 30px;
+    /*color:#ffffff;*/
 }
 
 .main h2 {
@@ -32,10 +35,11 @@ p {
     font-size: 30px;
 }
 
-.main link {
+.main link:hover {
  background-color: rgba(255, 255, 255, 0.3);
  transition: all 0.5s;
 }
+
 li {
     font-size: 20px;
 }
