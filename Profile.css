@@ -47,3 +47,16 @@ li {
 .footer {
     height: 200px;
 }
+
+a {
+    display: inline-block;
+    background-color:rgb(255, 0, 0, 0.7);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.Home:hover  {
+    background-color:rgb(255, 0, 0, 1);
+    color:#000000;
+
+}
