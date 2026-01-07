@@ -53,12 +53,17 @@ a {
     display: inline-block;
     background-color:rgba(255, 0, 0, 0.7);
     border-radius: 5px;
-    padding: 5px;
-    transition: 1s;
+    padding: 15px;
+    transition: 0.2s;
+    box-shadow: 5px 5px #750505
 }
 
 .Home:hover  {
     background-color:rgba(255, 0, 0, 1);
     color:#000000;
 
+}
+
+a:active {
+    box-shadow: none;
 }
